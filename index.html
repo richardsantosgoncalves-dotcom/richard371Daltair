@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto - O Caminho Ninja</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6b00; /* Laranja característico */
+            color: #ffffff;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: #ffffff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-left: 5px solid #ff6b00;
+        }
+        h2 {
+            color: #1a252f;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        .grid-personagens {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .card {
+            background: #f1f2f6;
+            padding: 1rem;
+            border-radius: 6px;
+            border-top: 3px solid #2c3e50;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #ff6b00;
+        }
+        blockquote {
+            background: #fff5ed;
+            border-left: 5px solid #ff6b00;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #1a252f;
+            color: #ffffff;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>Naruto</h1>
+        <p>"Eu nunca volto atrás na minha palavra... Esse é o meu jeito ninja!"</p>
+    </header>
+
+    <div class="container">
+        
+        <section id="sobre">
+            <h2>Sobre a Obra</h2>
+            <p>Criado por <strong>Masashi Kishimoto</strong>, <em>Naruto</em> é uma das séries de mangá e anime mais populares do mundo. A história acompanha a jornada de Naruto Uzumaki, um jovem ninja órfão que carrega uma temida besta de caudas selada dentro de si. Rejeitado por sua vila, ele busca o reconhecimento de todos e sonha em se tornar o <strong>Hokage</strong>, o líder máximo e ninja mais forte de sua comunidade.</p>
+        </section>
+
+        <section id="fases">
+            <h2>As Grandes Fases</h2>
+            <p>A saga principal da história é dividida em duas partes principais:</p>
+            <ul>
+                <li><strong>Naruto (Clássico):</strong> Apresenta a infância de Naruto, sua formação no Time 7, os exames Chunin e a busca inicial por seu próprio valor.</li>
+                <li><strong>Naruto Shippuden:</strong> Passada alguns anos depois, mostra os personagens na adolescência enfrentando ameaças globais, como a organização Akatsuki, e o aprofundamento dos mistérios do mundo ninja.</li>
+            </ul>
+        </section>
+
+        <section id="personagens">
+            <h2>Personagens Principais</h2>
+            <div class="grid-personagens">
+                <div class="card">
+                    <h3>Naruto Uzumaki</h3>
+                    <p>O protagonista persistente, determinado e portador da Raposa de Nove Caudas (Kurama).</p>
+                </div>
+                <div class="card">
+                    <h3>Sasuke Uchiha</h3>
+                    <p>O rival prodígio de Naruto, movido pelo desejo de vingar o destino trágico de seu clã.</p>
+                </div>
+                <div class="card">
+                    <h3>Sakura Haruno</h3>
+                    <p>Iniciando como uma ninja tímida, ela se desenvolve até se tornar uma das maiores ninjas médicas do mundo.</p>
+                </div>
+                <div class="card">
+                    <h3>Kakashi Hatake</h3>
+                    <p>O líder do Time 7, conhecido mundialmente como o "Ninja Copiador" por causa de seu Sharingan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="legado">
+            <h2>O Impacto Cultural</h2>
+            <p>Mais do que batalhas marcantes e coreografias de luta icônicas, Naruto conquistou gerações por abordar temas profundos como solidão, superação, o ciclo do ódio, redenção e o valor dos laços de amizade.</p>
+            
+            <blockquote>
+                "Aqueles que quebram as regras são lixo, é verdade. Mas aqueles que abandonam seus amigos são piores que lixo."
+                <br>— Obito / Kakashi Hatake
+            </blockquote>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Página temática criada por um fã de Naruto.</p>
+    </footer>
+
+</body>
+</html>
